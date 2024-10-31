@@ -1,0 +1,168 @@
+/*============================================
+              General styles
+============================================*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+}
+
+/*============================================
+              About Me section
+============================================*/
+.about-me-section {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 70px 0 70px;
+  margin: 0px auto 50px;
+  width: 70%;
+  border-radius: 10px;
+  background-color: #FCF6F6;
+}
+.about-me-section .profile-picture {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+.about-me-section .right-content {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  max-width: 300px;
+  text-align: center;
+}
+.about-me-section .logo-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 7px;
+}
+.about-me-section .logo-container i {
+  font-size: 25px;
+  color: #333333;
+}
+
+/*============================================
+              Hobbies section
+============================================*/
+.hobbies-section {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  background-color: #FCF6F6;
+  padding: 70px 0 70px;
+  margin: 0px auto 50px;
+}
+
+.card-hobbies-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+.card-hobbies-container .card-hobbies {
+  width: 200px;
+  height: 220px;
+  background-color: white;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+  text-align: center;
+}
+.card-hobbies-container .card-hobbies .card-hobbies-image {
+  width: 100%;
+  margin-bottom: 25px;
+}
+
+/*============================================
+              Projects section
+============================================*/
+.project-section {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  padding: 70px 0 70px;
+  margin: 0 auto 50px;
+  width: 70%;
+  border-radius: 10px;
+  background-color: #FCF6F6;
+}
+
+.card-project {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 0;
+  width: 80%;
+  overflow: hidden;
+  padding: 30px;
+  background-color: white;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+.card-project .project-image {
+  width: 100%;
+}
+.card-project .title {
+  margin: 20px 0 20px;
+}
+.card-project .description {
+  width: 100%;
+}
+
+/*============================================
+              Technologies section
+============================================*/
+.technologies-section {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  background-color: #FCF6F6;
+  padding: 70px 0 70px;
+}
+
+.card-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  max-width: 800px;
+}
+.card-container .card-tech {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 0;
+  border-radius: 8px;
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.1);
+}
+.card-container .card-tech .card-tech-img {
+  width: 55%;
+  margin-bottom: 5px;
+}
+.card-container .card-tech .name {
+  font-size: 12px;
+}/*# sourceMappingURL=style.css.map */
