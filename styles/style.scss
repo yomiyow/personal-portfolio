@@ -1,0 +1,149 @@
+@import 'variables';
+@import 'mixins';
+
+/*============================================
+              General styles
+============================================*/
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: $font-stack;
+  color: $font-color;
+}
+
+/*============================================
+              About Me section
+============================================*/
+
+.about-me-section {
+  @include flex-center(row, 20px);
+  padding: $section-padding;
+  margin: 0px auto 50px;
+  width: 70%;
+  border-radius: 10px;
+  background-color: $background-color;
+
+  .profile-picture {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+  }
+
+  .right-content {
+    @include flex-center(column, 20px);
+    max-width: 300px;
+    text-align: center;
+  }
+
+  .logo-container {
+    @include flex-center(row, 7px);
+
+    i {
+      font-size: 25px;
+      color: #333333;
+    }
+  }
+}
+
+/*============================================
+              Hobbies section
+============================================*/
+
+.hobbies-section {
+  @include flex-center(column, 50px);
+  background-color: $background-color;
+  padding: $section-padding;
+  margin: 0px auto 50px;
+}
+
+.card-hobbies-container {
+  @include flex-center(row, 50px);
+
+  .card-hobbies {
+    width: 200px;
+    height: 220px;
+    background-color: white;
+    box-shadow: 0 0 1px rgb(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+
+    .card-hobbies-image {
+      width: 100%;
+      margin-bottom: 25px;
+    }
+  }
+}
+
+/*============================================
+              Projects section
+============================================*/
+
+.project-section {
+  @include flex-center(column, 40px);
+  padding: $section-padding;
+  margin: 0 auto 50px;
+  width: 70%;
+  border-radius: 10px;
+  background-color: $background-color;
+}
+
+.card-project {
+  @include flex-center(column);
+  width: 80%;
+  overflow: hidden;
+  padding: 30px;
+  background-color: white;
+  box-shadow: 0 0 1px rgb(0, 0, 0, 0.1);
+  border-radius: 10px;
+
+  .project-image {
+    width: 100%;
+  }
+
+  .title {
+    margin: 20px 0 20px;
+  }
+
+  .description {
+    width: 100%;
+  }
+}
+
+
+/*============================================
+              Technologies section
+============================================*/
+
+.technologies-section {
+  @include flex-center(column, 50px);
+  background-color: $background-color;
+  padding: $section-padding;
+}
+
+.card-container {
+  @include flex-center(row, 40px);
+  max-width: 800px;
+
+  .card-tech {
+    @include flex-center(column);
+    border-radius: 8px;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.1);
+
+    .card-tech-img {
+      width: 55%;
+      margin-bottom: 5px;
+    }
+
+    .name {
+      font-size: 12px;
+    }
+  }
+}
