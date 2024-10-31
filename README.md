@@ -2,16 +2,24 @@
 Midterm Hands-on Project
 
 ## Initial Website Screenshot
-![Initial Website](https://github.com/user-attachments/assets/0deea2fd-5e05-41b4-9214-d68473e8d45a)
+![image](https://github.com/user-attachments/assets/87efd31b-9445-4db8-a3de-430323c6b555)
+
 
 ## Mid-development Screenshot
-![Mid-development](https://github.com/user-attachments/assets/a78b45b6-7ca8-4fa6-ae1a-662b175a8811)
+![image](https://github.com/user-attachments/assets/a78b45b6-7ca8-4fa6-ae1a-662b175a8811)
 
 ## Completed Website Screenshots
-![Completed Website 1](https://github.com/user-attachments/assets/83fca7a2-1a65-4628-a5cb-52ffe53310fc)
-![Completed Website 2](https://github.com/user-attachments/assets/dc510133-d31a-4c23-bddd-4f4db1b7c45d)
-![Completed Website 3](https://github.com/user-attachments/assets/0fa09b64-9ac0-405e-8c5f-7ee37451408d)
-![Completed Website 4](https://github.com/user-attachments/assets/a1726de5-2655-4e2b-90ec-9ab5137fc067)
-![Completed Website 5](https://github.com/user-attachments/assets/17d6d36e-3b29-4c29-942b-f70f1170831c)
-![Completed Website 6](https://github.com/user-attachments/assets/bb4664e4-28bf-40ff-be77-c48a2b09c275)
+![image](https://github.com/user-attachments/assets/ac7ea546-a629-43d5-a3d4-d45eaa2dfc55)
+![image](https://github.com/user-attachments/assets/4669d0e4-9ead-4319-a06f-f72e2d11db22)
+![image](https://github.com/user-attachments/assets/d6a25eaa-f1c5-48ce-a373-b57d5e66045f)
+![image](https://github.com/user-attachments/assets/146c197d-f31f-4363-945e-0424aa2ad730)
+![image](https://github.com/user-attachments/assets/b4d9bcd9-7e02-4a06-8553-6d2060a3c89f)
+![image](https://github.com/user-attachments/assets/cf7e3cdb-3e58-4a51-a4a7-9f412b05654b)
+![image](https://github.com/user-attachments/assets/8403e63d-8f68-4060-88b1-8bc317a80fc9)
+
+
+
+
+
+
 
