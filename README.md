@@ -13,4 +13,5 @@ Midterm Hands-on Project
 ![Completed Website 3](https://github.com/user-attachments/assets/0fa09b64-9ac0-405e-8c5f-7ee37451408d)
 ![Completed Website 4](https://github.com/user-attachments/assets/a1726de5-2655-4e2b-90ec-9ab5137fc067)
 ![Completed Website 5](https://github.com/user-attachments/assets/17d6d36e-3b29-4c29-942b-f70f1170831c)
-![Completed Website 6](https://github.com/user-attachments/assets/802b4384-e07e-4331-ad9a-20b652edd99c)
+![Completed Website 6](https://github.com/user-attachments/assets/bb4664e4-28bf-40ff-be77-c48a2b09c275)
+
