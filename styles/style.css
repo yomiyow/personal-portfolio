@@ -4,34 +4,64 @@
 * {
   box-sizing: border-box;
   margin: 0;
+  padding: 0;
+  color: #333;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  scroll-behavior: smooth;
 }
 
-body {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  color: #333;
+/*============================================
+                  Header
+============================================*/
+header {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 0;
+  height: 70px;
+  margin: 0 auto 50px;
+  background-color: #FCF6F6;
+}
+
+nav ul {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  list-style: none;
+}
+nav ul a {
+  text-decoration: none;
+  font-weight: bold;
+  display: block;
+}
+nav ul a:hover {
+  color: #666666;
 }
 
 /*============================================
               About Me section
 ============================================*/
-.about-me-section {
+#about-me-section {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
   align-items: center;
   gap: 20px;
   padding: 70px 0 70px;
-  margin: 0px auto 50px;
+  margin: 0 auto 50px;
   width: 70%;
   border-radius: 10px;
   background-color: #FCF6F6;
 }
-.about-me-section .profile-picture {
+#about-me-section .profile-picture {
   width: 200px;
   height: 200px;
   border-radius: 50%;
 }
-.about-me-section .right-content {
+#about-me-section .right-content {
   display: flex;
   flex-flow: column wrap;
   justify-content: center;
@@ -40,22 +70,25 @@ body {
   max-width: 300px;
   text-align: center;
 }
-.about-me-section .logo-container {
+#about-me-section .logo-container {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
   align-items: center;
   gap: 7px;
 }
-.about-me-section .logo-container i {
+#about-me-section .logo-container i {
   font-size: 25px;
   color: #333333;
+}
+#about-me-section .logo-container i:hover {
+  color: #666666;
 }
 
 /*============================================
               Hobbies section
 ============================================*/
-.hobbies-section {
+#hobbies-section {
   display: flex;
   flex-flow: column wrap;
   justify-content: center;
@@ -90,7 +123,7 @@ body {
 /*============================================
               Projects section
 ============================================*/
-.project-section {
+#project-section {
   display: flex;
   flex-flow: column wrap;
   justify-content: center;
@@ -129,7 +162,7 @@ body {
 /*============================================
               Technologies section
 ============================================*/
-.technologies-section {
+#technologies-section {
   display: flex;
   flex-flow: column wrap;
   justify-content: center;
@@ -165,4 +198,34 @@ body {
 }
 .card-container .card-tech .name {
   font-size: 12px;
+}
+
+/*============================================
+                    Footer
+============================================*/
+footer {
+  background-color: #FCF6F6;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 0;
+  height: 70px;
+  margin: 50px auto 0px;
+}
+
+.up-nav {
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+  transition: all 0.25s;
+}
+.up-nav i {
+  padding: 13px;
+  border-radius: 50%;
+  transition: all 0.25s;
+}
+.up-nav i:hover {
+  background-color: #444;
+  color: white;
 }/*# sourceMappingURL=style.css.map */

@@ -5,24 +5,52 @@
               General styles
 ============================================*/
 
+
 * {
   box-sizing: border-box;
   margin: 0;
+  padding: 0;
+  color: $font-color;
+  font-family: $font-stack;
+  scroll-behavior: smooth;
 }
 
-body {
-  font-family: $font-stack;
-  color: $font-color;
+/*============================================
+                  Header
+============================================*/
+
+header {
+  @include flex-center(row);
+  height: 70px;
+  margin: 0 auto 50px;
+  background-color: $background-color;
+}
+
+nav {
+  ul {
+    @include flex-center(row, 30px);
+    list-style: none;
+
+    a {
+      text-decoration: none;
+      font-weight: bold;
+      display: block;
+
+      &:hover {
+        color: lighten($font-color, 20%);
+      }
+    }
+  }
 }
 
 /*============================================
               About Me section
 ============================================*/
 
-.about-me-section {
+#about-me-section {
   @include flex-center(row, 20px);
   padding: $section-padding;
-  margin: 0px auto 50px;
+  margin: 0 auto 50px;
   width: 70%;
   border-radius: 10px;
   background-color: $background-color;
@@ -45,6 +73,10 @@ body {
     i {
       font-size: 25px;
       color: #333333;
+
+      &:hover {
+        color: lighten($font-color, 20%);
+      }
     }
   }
 }
@@ -53,7 +85,7 @@ body {
               Hobbies section
 ============================================*/
 
-.hobbies-section {
+#hobbies-section {
   @include flex-center(column, 50px);
   background-color: $background-color;
   padding: $section-padding;
@@ -83,7 +115,7 @@ body {
               Projects section
 ============================================*/
 
-.project-section {
+#project-section {
   @include flex-center(column, 40px);
   padding: $section-padding;
   margin: 0 auto 50px;
@@ -119,7 +151,7 @@ body {
               Technologies section
 ============================================*/
 
-.technologies-section {
+#technologies-section {
   @include flex-center(column, 50px);
   background-color: $background-color;
   padding: $section-padding;
@@ -144,6 +176,35 @@ body {
 
     .name {
       font-size: 12px;
+    }
+  }
+}
+
+/*============================================
+                    Footer
+============================================*/
+
+footer {
+  background-color: $background-color;
+  @include flex-center(row);
+  height: 70px;
+  margin: 50px auto 0px;
+}
+
+.up-nav {
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+  transition: all 0.25s;
+
+  i {
+    padding: 13px;
+    border-radius: 50%;
+    transition: all 0.25s;
+
+    &:hover {
+      background-color: #444;
+      color: white;
     }
   }
 }

@@ -8,7 +8,18 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   </head>
   <body>
-    <section class="about-me-section">
+    <header id="top">
+      <nav>
+        <ul>
+          <li><a href="#about-me-section">About Me</a></li>
+          <li><a href="#hobbies-section">Hobbies</a></li>
+          <li><a href="#project-section">Projects</a></li>
+          <li><a href="#technologies-section">Skills</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="about-me-section">
       <div>
         <img src="images/formal-picture.jpg" alt="" class="profile-picture">
       </div>
@@ -24,7 +35,7 @@
       </div>
     </section>
 
-    <section class="hobbies-section">
+    <section id="hobbies-section">
       <h2>Hobbies</h2>
       <div class="card-hobbies-container">
         <div class="card-hobbies">
@@ -46,7 +57,7 @@
       </div>
     </section>
 
-    <section class="project-section">
+    <section id="project-section">
       <h2>Projects</h2>
       
       <div class="card-project">
@@ -75,8 +86,8 @@
       </div>
     </section>
 
-    <section class="technologies-section">
-      <h2>Technologies I am focusing on: </h2>
+    <section id="technologies-section">
+      <h2>Technologies I am focusing on </h2>
       <div class="card-container">
         <div class="card-tech">
           <img src="images/tech-icon/html.png" alt="" class="card-tech-img">
@@ -128,5 +139,17 @@
         </div>
       </div>
     </section>
+
+    <footer>
+      <div class="footer-content">
+        <p>&copy; 2024 Romeo Quiñones. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <div class="up-nav">
+      <a href="#top">
+        <i class="fa-solid fa-chevron-up"></i>
+      </a>
+    </div>
   </body>
 </html>
